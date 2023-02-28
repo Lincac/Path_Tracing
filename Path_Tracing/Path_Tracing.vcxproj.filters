@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CPU">
+      <UniqueIdentifier>{cf2d8bcb-7e2f-4f85-8e40-3a7736a8a34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Vec">
+      <UniqueIdentifier>{87b5475d-5296-4c34-9091-a04af25c2c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Texture">
+      <UniqueIdentifier>{61731afd-fae0-4a28-bb71-52c640ced52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Ray">
+      <UniqueIdentifier>{87bd6528-868d-4451-b545-6f522fbfb8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Shape">
+      <UniqueIdentifier>{a6e95d0a-0359-495c-94fc-ad09383e09bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Material">
+      <UniqueIdentifier>{e7c5a5a2-a8e5-4675-8ff6-ccef38ed8227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU\Camera">
+      <UniqueIdentifier>{da305940-afa1-4fec-aacd-027bbdac0880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU">
+      <UniqueIdentifier>{f41369e9-98b9-4694-a04d-9af21765d073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\RenderPass">
+      <UniqueIdentifier>{8c65a472-bf9b-40e6-992c-d1227e837296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\TOOL">
+      <UniqueIdentifier>{f59f5a0c-a3fb-4c49-a460-d2a5fec3445b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\HDR">
+      <UniqueIdentifier>{8869527a-4715-426b-8206-bc4ee51999dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>GPU\TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU_PathTracing.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_write.cpp">
+      <Filter>GPU\TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="HDRLoaderResult.cpp">
+      <Filter>GPU\HDR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec3.h">
+      <Filter>CPU\Vec</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>CPU\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>CPU\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.h">
+      <Filter>CPU\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Metallic.h">
+      <Filter>CPU\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Dielectric.h">
+      <Filter>CPU\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CPU\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH_SAH.h">
+      <Filter>CPU\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>CPU\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid_Texture.h">
+      <Filter>CPU\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Texture.h">
+      <Filter>CPU\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>CPU\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>GPU\TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>GPU\RenderPass</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="std_image.cpp">
+      <Filter>GPU\TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureGPU.h">
+      <Filter>GPU\TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="HDRLoaderResult.h">
+      <Filter>GPU\HDR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
