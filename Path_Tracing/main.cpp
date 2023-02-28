@@ -13,7 +13,7 @@ std::clock_t start,end;
 
 const int width = 500;
 const int height = 500;
-const int samplePixel = 1;
+const int samplePixel = 50;
 
 const double near = .0001;
 const double far = 100.0;

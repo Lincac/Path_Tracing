@@ -106,8 +106,9 @@ int main() {
 	material.baseColor = glm::vec3(1, 0.73, 0.25);
 	material.roughness = 0.5;
 	material.specular = 1;
-	material.metallic = 1;
-	material.clearcoat = 0;
+	material.metallic = 0;
+	material.clearcoat = 1;
+	material.subsurface = 0;
 	LoadModel("resource/Model/bunny.obj", triangles, model, material);
 
 	model = glm::mat4(1);
