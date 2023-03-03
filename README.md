@@ -39,6 +39,7 @@ GPU：
 Ray Tracing: The Next Week V3.0中文翻译 https://zhuanlan.zhihu.com/p/129745508
 
 关于版本更新
+
 由于时间问题和技术问题，项目中仅为简单的光追渲染，日后有时间会继续优化
 1.迪士尼拓展BSDF
 2.CUDA加速
