@@ -33,6 +33,7 @@ GPU：
 多重重要性采样
 
 引用
+
 光线追踪渲染实战（五）：低差异序列与重要性采样，加速收敛！ https://blog.csdn.net/weixin_44176696/article/details/119988866?spm=1001.2014.3001.5502
 
 Ray Tracing: The Next Week V3.0中文翻译 https://zhuanlan.zhihu.com/p/129745508
