@@ -18,7 +18,12 @@ GPU端效果
 
 玉石（看起来挺像）
 
-![0U9I7WSC0A$J @I%}8BMIA9](https://user-images.githubusercontent.com/83110022/221791231-829adc5f-88e8-4cf4-b34a-000ca4ff8eb0.png)
+![0U9I7WSC0A$J @I%}8BMIA9](https://user-images.githubusercontent.com/83110022/221791231-829adc5f-88e8-4cf4-b34a-000ca4ff8eb0.png)  
+
+
+  
+ ![2S)FSP~ORE}X~IMW7EA_ZZO](https://github.com/Lincac/Path_Tracing/assets/83110022/85234777-bd3a-4321-a355-f3b0848d3367)
+
 
 
 CPU：
