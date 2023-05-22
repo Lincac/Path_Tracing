@@ -41,13 +41,5 @@ GPU：
 
 光线追踪渲染实战（五）：低差异序列与重要性采样，加速收敛！ https://blog.csdn.net/weixin_44176696/article/details/119988866?spm=1001.2014.3001.5502
 
-Ray Tracing: The Next Week V3.0中文翻译 https://zhuanlan.zhihu.com/p/129745508
-
-关于版本更新
-
-由于时间问题和技术问题，项目中仅为简单的光追渲染，日后有时间会继续优化
-1.迪士尼拓展BSDF
-2.CUDA加速
-3.加入计算着色器
-....
+Ray Tracing: The Next Week V3.0中文翻译 https://zhuanlan.zhihu.com/p/129745508  
 
